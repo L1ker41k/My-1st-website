@@ -1,0 +1,40 @@
+head{
+    background-color: aquamarine;
+    font-family: sans-serif;
+}
+h6{
+    background-color: black;
+    font-family: sans-serif;
+    color:cyan;
+    font-size:30px;
+    border:3px solid lime;
+    width: 300px;
+    animation:color-change 3s infinite;
+}
+p{
+    font-family: sans-serif;
+    color:chocolate
+}
+h2{
+    background-color: blueviolet;
+    color: violet;
+    border: 2px solid lime;
+}
+@keyframes color-change {
+  0%   { color: blue; }
+  50%  { color: red; }
+  100% { color: blue; }
+}
+img:hover{
+    border-radius: 50%;
+    box-shadow: 2000px 1000px 500px gray;
+    animation: radius-img 2s 1;
+}
+@keyframes radius-img{
+    10% {border-radius: 0%;}
+    20% {border-radius: 10%;}
+    40% {border-radius: 20%;}
+    60% {border-radius: 30%;}
+    80% {border-radius: 40%;}
+    100% {border-radius: 50%;}
+}
